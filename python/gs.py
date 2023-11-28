@@ -10,7 +10,7 @@ def criar_paciente(nome, email):
 def salvar_exame(nome_paciente, dados_exame):
     if nome_paciente in pacientes:
         pacientes[nome_paciente]['exames'].append(dados_exame)
-        print(f'Exame de{nome_paciente} salvo com sucesso.')
+        print(f'Exame de {nome_paciente} salvo com sucesso.')
     else:
         print(f'O paciente {nome_paciente} não encontrado.')
 
@@ -31,7 +31,12 @@ email_usuario = input('Digite seu email: ')
 
 criar_paciente(nome_usuario, email_usuario)
 
-dados_exame = input('Digite os dados do exame: ')
-salvar_exame(nome_usuario, dados_exame)
+while True:
+    dados_exame = input('Digite os dados do exame, ou escreva "sair" para finalizar o programa: ')
+    
+    if dados_exame.lower() == 'sair':
+        break
+
+    salvar_exame(nome_usuario, dados_exame)
 
 acessar_exame(nome_usuario)
