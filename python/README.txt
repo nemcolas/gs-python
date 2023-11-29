@@ -1,6 +1,6 @@
 Nicolas Alexandre Martins, RM:553478
 
-Ola, para a Global Solution eu desenvolvi um script que tem como finalide fazer com que 
+Ola, para a Global Solution eu desenvolvi um script que tem como finalide fazer com que
 usuarios/pacientes consigam cadastrar seus exames, de uma forma que ele tenha acesso mais facil e rapido ao seu historico
 de saúde sem depender das guias fisicas dos exames.
 
@@ -17,4 +17,8 @@ Criar Paciente: que tem como finalidade identificar o usuario que vai anexar seu
 Salvar Exame: função responsavel por pedir e salvar os exames que o usuario informou em uma lista.
 
 Acessar Exame: que informa ao usuario o ultimo exame que ele anexou.
+
+
+
+Link para a apresentação no youtube: https://youtu.be/fyOOkKoUTKo
 
